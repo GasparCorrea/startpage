@@ -1,0 +1,104 @@
+@import url('colors.css');
+
+@font-face {
+  font-family: "Raleway";
+  src:url("OpenSans-Regular.ttf");
+}
+html{
+  background: linear-gradient(var(--background), var(--color2));
+}
+
+html{
+height:100%;
+}
+
+html,
+body,
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway";
+}
+
+
+button {
+    background-color: var(--background);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    visibility:hidden;
+}
+
+body {  
+  color: #EDEDED;
+  font-size: 15px;
+}
+
+h3 {
+  display: inline;
+  padding-bottom: 5px;
+  font-size: 1em;
+}
+
+ul {
+  font-size: 12px;
+  list-style: none;    
+  color: var(--foreground);
+  display: table;
+  margin-left: 35%;
+}
+
+.mycontainer {
+
+  top: 13%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 650px;
+  height: auto;
+  margin-top: 6%;
+}
+
+.searchbox {
+  margin: 4px;
+  padding: 8px;
+  border-bottom: 5px solid var(--foreground);
+  }
+
+.imageBox{
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 165px;
+  height: 165px;
+  background-color: var(--foreground);
+  border: 5px solid var(--foreground);
+  -webkit-box-shadow: 1px 1px 10px 0px #000;
+     -moz-box-shadow: 1px 1px 10px 0px #000;
+          box-shadow: 1px 1px 10px 0px #000;
+}
+
+
+.mybox {
+    margin: 4px;
+  padding: 8px;
+    -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  }
+
+
+form {
+  display: inline;
+}
+
+input 	{
+  display: inline;
+  width: 50%;
+  background: none;
+  border: none;
+  color: var(--foreground);
+  font-size: 1em;
+  font-weight: bold;
+}

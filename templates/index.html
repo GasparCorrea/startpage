@@ -1,0 +1,27 @@
+<html>
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+        <title>Startpage</title>
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+	<div class="mycontainer">
+	  <div class="imageBox">
+	    <img src="{{url_for('static', filename=image )}}" style="width:165px; height 165px;">	
+	  </div>
+	<div class="searchbox">
+	<form method="POST">
+		<input type="text" name="search" autocapitalize="off" autocomplete="off" autocorrect="off" autofoc    us="autofocus" spellcheck="false" placeholder=""></input>
+	</form>
+	</div>
+	<ul>
+        {% for event in events %}
+	<li><b> {{event}} </b></li>
+        {% endfor %}
+	</ul>
+	</div>
+    </body>
+</html>

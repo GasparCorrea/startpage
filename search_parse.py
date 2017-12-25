@@ -37,4 +37,4 @@ def parse(text):
     elif command in search_urls:
         return search_urls[command]+quote(" ".join(text[1:]),safe='')
     else:
-        return search_urls['g']+quote(" ".join(text[1:]),safe='')
+        return search_urls['g']+quote(" ".join(text),safe='')

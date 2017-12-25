@@ -8,5 +8,6 @@ The colorscheme of the site is based in the current colorscheme of my computer, 
 
 ## Examples
 
-![](https://imgur.com/sdUiZMq)
-![](https://imgur.com/UxHk8Ch)
+![example 1](https://i.imgur.com/sdUiZMq.png)
+
+![example 2](https://i.imgur.com/UxHk8Ch.png)
